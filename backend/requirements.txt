@@ -6,3 +6,4 @@ dj-database-url==2.2.0
 gunicorn==22.0.0
 psycopg2-binary==2.9.10
 whitenoise==6.7.0
+# cache bust Wed, May 13, 2026  8:44:48 AM
