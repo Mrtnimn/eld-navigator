@@ -18,10 +18,10 @@ interface Props {
 
 export function TripForm({ onSubmit, loading }: Props) {
   const [data, setData] = useState<TripFormData>({
-    current: "Chicago, IL",
-    pickup: "St. Louis, MO",
-    dropoff: "Dallas, TX",
-    cycleUsed: 12,
+    current: "",
+    pickup: "",
+    dropoff: "",
+    cycleUsed: 0,
   });
 
   const handle = (e: React.FormEvent) => {
