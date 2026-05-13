@@ -1,2 +1,2 @@
-web: gunicorn eld_planner.wsgi:application --bind 0.0.0.0:8080 --log-file -
+web: python start.py
 release: python manage.py migrate
