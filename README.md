@@ -1,4 +1,4 @@
-# ELD Navigator — HOS-Compliant Trip Planner (Full-Stack Portfolio Project)
+# ELD Navigator — HOS-Compliant Trip Planner
 
 **ELD Navigator** is a full-stack trip planning app for **property-carrying drivers** that generates a **Hours-of-Service (HOS)-compliant** multi-day plan: route + stops + ELD-style daily logs.
 
@@ -62,7 +62,7 @@ ELD Navigator takes a start/end trip request and returns a plan that accounts fo
 - psycopg2-binary (Postgres)
 - whitenoise
 
-### Deployment (as documented in repo)
+### Deployment (as documented in repo in the DEPLOYMENT.md)
 - **Frontend** deploys to **Vercel** (root directory `.`)
 - **Backend** deploys to **Vercel** as Python serverless (root directory `backend/`)
 - Notes call out external API rate limits and Vercel function timeouts
