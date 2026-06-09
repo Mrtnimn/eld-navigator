@@ -37,3 +37,14 @@ dist-ssr
 *.sw?
 
 .vercel
+
+# ESLint Cache (you have eslint.config.js)
+.eslintcache
+
+# Frontend Testing / Coverage
+coverage/
+playwright-report/
+test-results/
+
+# Local Bun/npm debug logs (if they generate outside current masks)
+bun.log

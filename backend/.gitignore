@@ -4,3 +4,17 @@ __pycache__/
 db.sqlite3
 .env
 staticfiles/
+
+# Python Test / Coverage Cache (for Django tests)
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+.tox/
+
+# Local media uploads (if you later add user file uploads)
+media/
+uploads/
+
+# Vercel cache for backend deployments
+.vercel/
