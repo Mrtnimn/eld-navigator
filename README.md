@@ -184,7 +184,7 @@ Potential next improvements:
 
 ## Contact
 
-If you're a recruiter, hiring manager, or technical visitor reviewing this repository, this project is meant to make it easy to discuss:
+If you're a recruiter, hiring manager, or visitor reviewing this repository, this project is meant to make it easy to discuss more on how I have implemented:
 
 - architecture decisions
 - HOS rule modeling
