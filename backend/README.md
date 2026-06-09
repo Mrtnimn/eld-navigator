@@ -167,4 +167,4 @@ If you're a recruiter or hiring manager evaluating full-stack or frontend roles,
 
 Repo link: [ELD Navigator Repo](https://github.com/Mrtnimn/eld-navigator "Electronic Logging Device (ELD) Navigator Repo")
 
-Repo link: [ELD Navigator Repo](https://github.com/Mrtnimn/eld-navigator "Electronic Logging Device (ELD) Navigator Repo")
+Repo link: [ELD Navigator Repo](https://github.com/Mrtnimn/eld-navigator)
