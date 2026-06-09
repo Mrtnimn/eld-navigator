@@ -192,4 +192,4 @@ If you're a recruiter, hiring manager, or visitor reviewing this repository, thi
 - frontend experience and map-based UX
 - deployment tradeoffs
 
-Repo Link:[Click here to visit thee ELD Navigator repo](https://github.com/Mrtnimn/eld-navigator)
+Repo Link:[ Click here to visit the ELD Navigator repo ](https://github.com/Mrtnimn/eld-navigator)
