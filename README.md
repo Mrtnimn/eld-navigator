@@ -231,7 +231,7 @@ ELD Navigator takes a start/end trip request and returns a plan that accounts fo
 bun install
 Create a repo-root `.env`:
 VITE_API_BASE_URL=http://localhost:8000
-
+```
 ---
 
 
@@ -286,7 +286,7 @@ Repo: `Mrtnimn/eld-navigator`---
   - `DJANGO_ALLOWED_HOSTS`
 The repo includes a full deployment guide in `DEPLOYMENT.md`. Highlights:
 ## Deployment (Vercel) — practical notes
-```
+
 ```bash
 
 bun run dev
