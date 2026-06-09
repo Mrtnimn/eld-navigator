@@ -1,4 +1,4 @@
-# ELD Navigator — HOS-Compliant Trip Planner
+# ELD Navigator - HOS-Compliant Trip Planner
 
 **ELD Navigator** is a full-stack trip planning app for **property-carrying drivers** that generates a **Hours-of-Service (HOS)-compliant** multi-day plan: route + stops + ELD-style daily logs.
 
@@ -6,7 +6,7 @@ This project showcases end-to-end product engineering: a modern React UI, an API
 
 ---
 
-## Why this project (in plain English)
+## Why this project
 
 Dispatch and trip planning isn’t just “maps + directions.” For CDL drivers, a route needs to be **legal and realistic**:
 
@@ -19,7 +19,7 @@ ELD Navigator takes a start/end trip request and returns a plan that accounts fo
 
 ---
 
-## What it does (confirmed features)
+## What it does (confirmed built and operational features)
 
 ### Core capabilities
 - **Trip planning endpoint** that returns a plan including:
@@ -43,7 +43,7 @@ ELD Navigator takes a start/end trip request and returns a plan that accounts fo
 
 ---
 
-## Tech stack (confirmed from repo)
+## Tech stack I used for this website
 
 ### Frontend
 - React (modern version)
@@ -59,7 +59,7 @@ ELD Navigator takes a start/end trip request and returns a plan that accounts fo
 - django-cors-headers
 - dj-database-url (DB config via `DATABASE_URL`)
 - gunicorn
-- psycopg2-binary (Postgres)
+- psycopg2-binary (Postgres DBMS)
 - whitenoise
 
 ### Deployment (as documented in repo in the DEPLOYMENT.md)
@@ -111,7 +111,7 @@ VITE_API_BASE_URL=http://localhost:8000
 
 ---
 
-## Deployment (Vercel) — practical notes
+## Deployment Notes (on Vercel)
 
 The repo includes a full deployment guide in `DEPLOYMENT.md`. Highlights:
 
@@ -130,7 +130,7 @@ The repo includes a full deployment guide in `DEPLOYMENT.md`. Highlights:
 
 ---
 
-## What this demonstrates to recruiters
+## What this demonstrates:
 
 ### Full-stack engineering
 - Frontend ↔ backend contract design (clean `/api/...` endpoints)
@@ -148,10 +148,10 @@ The repo includes a full deployment guide in `DEPLOYMENT.md`. Highlights:
 
 ---
 
-## Roadmap (reasonable next steps)
+## Roadmap (Recommended/Projected next steps for this web app)
 - Add automated tests (API + HOS edge cases + UI flows)
 - Add observability for planning requests (timings, error categorization)
-- Optional: self-host routing/geocoding services for higher throughput
+- Using self-host routing/geocoding services for higher throughput
 - Export/printable log sheet generation UX polish
 
 ---
@@ -160,11 +160,11 @@ The repo includes a full deployment guide in `DEPLOYMENT.md`. Highlights:
 
 **ELD Navigator** is a full-stack trip planning app for **property-carrying drivers** that generates a **Hours-of-Service (HOS)-compliant** multi-day plan: route + stops + ELD-style daily logs.
 
-This project showcases end-to-end product engineering: a modern React UI, an API-driven Django backend, and real-world constraints like compliance rules, external geocoding, and production deployment.
+This project showcases end-to-end product (web application) engineering: a modern React UI, an API-driven Django backend, and real-world constraints like compliance rules, external geocoding, and production deployment.
 
 ---
 
-## Why this project (in plain English)
+## Why this project
 
 Dispatch and trip planning isn’t just “maps + directions.” For CDL drivers, a route needs to be **legal and realistic**:
 
@@ -177,11 +177,11 @@ ELD Navigator takes a start/end trip request and returns a plan that accounts fo
 
 ---
 
-## What it does (confirmed features)
+## What it does (confirmed working features in the application)
 
 ### Core capabilities
 - **Trip planning endpoint** that returns a plan including:
-  - summary + route + stops + **ELD logs**  
+  - summary + route + stops + **Auto-filled ELD logs**  
   (exposed via the backend `POST /api/trip/plan`)
 - **Geocoding** via a Nominatim proxy: `GET /api/trip/geocode?q=...`
 - **Driver profile** persistence: `GET/PUT /api/profile` (or `/api/trip/profile` depending on deployment docs)
@@ -190,7 +190,7 @@ ELD Navigator takes a start/end trip request and returns a plan that accounts fo
   - retrieve/delete: `GET/DELETE /api/trip/saved/<id>`
 - **Health check**: `GET /api/healthz` returning `{"status":"ok"}`
 
-### HOS rules modeled (property-carrying, per backend docs)
+### HOS rules modeled (Standard regulations for property-carrying drivers modeled into backend)
 - 70 hr / 8 day cycle  
 - 11 hr max driving  
 - 14 hr on-duty window  
@@ -201,7 +201,7 @@ ELD Navigator takes a start/end trip request and returns a plan that accounts fo
 
 ---
 
-## Tech stack (confirmed from repo)
+## Tech stack 
 
 ### Frontend
 - React (modern version)
@@ -271,7 +271,7 @@ VITE_API_BASE_URL=http://localhost:8000
 ---
 
 ## Contact
-If you're a recruiter or hiring manager evaluating full-stack / frontend roles, I’m happy to walk through:
+If you're a recruiter/hiring manager or an interested visitor evaluating full-stack / frontend roles, I’m happy to walk through:
 - architecture decisions,
 - how the HOS constraints are modeled,
 - API contract design,
